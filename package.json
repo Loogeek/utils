@@ -1,7 +1,7 @@
 {
   "name": "@loogeek/utils",
   "type": "module",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "packageManager": "pnpm@8.15.3",
   "description": "Opinionated collection of common JavaScript / TypeScript utils by Loogeek",
   "author": "Loogeek <xiaolong3956@gmail.com>",
