@@ -1,7 +1,7 @@
 {
   "name": "@loogeek/utils",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.15.3",
   "description": "Opinionated collection of common JavaScript / TypeScript utils by Loogeek",
   "author": "Loogeek <xiaolong3956@gmail.com>",
@@ -34,7 +34,7 @@
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
-    "release": "bumpp && npm publish",
+    "release": "bumpp --commit --push --tag && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
