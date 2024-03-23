@@ -1,7 +1,7 @@
 {
   "name": "@loogeek/utils",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@8.15.3",
   "description": "Opinionated collection of common JavaScript / TypeScript utils by Loogeek",
   "author": "Loogeek <xiaolong3956@gmail.com>",
@@ -14,6 +14,10 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
